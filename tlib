@@ -1,0 +1,19 @@
+﻿// TLIB standard header
+
+// Copyright (c) Timuri Alvarez.
+
+#pragma once
+#ifndef _TLIB_
+#define _TLIB_
+
+#include "tlib.h"
+#include "tsyscalls.h"
+#include "texception.h"
+#include "trange.h"
+#include "tcounter.h"
+#include "tstring.h"
+#include "tinput.h"
+#include "trandom.h"
+#include "tui.h"
+
+#endif // _TLIB_

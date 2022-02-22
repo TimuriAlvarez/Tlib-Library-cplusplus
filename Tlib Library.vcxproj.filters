@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\tlib">
+      <UniqueIdentifier>{22782bdf-3864-418c-9bed-4036b53b13e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tdev">
+      <UniqueIdentifier>{6bad86ed-47b8-4357-9a19-49032931bcfe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tdebug.h">
+      <Filter>Header Files\tdev</Filter>
+    </ClInclude>
+    <ClInclude Include="tdev.h">
+      <Filter>Header Files\tdev</Filter>
+    </ClInclude>
+    <ClInclude Include="tinput.h">
+      <Filter>Header Files\tlib</Filter>
+    </ClInclude>
+    <ClInclude Include="tlib.h">
+      <Filter>Header Files\tlib</Filter>
+    </ClInclude>
+    <ClInclude Include="tsyscalls.h">
+      <Filter>Header Files\tlib</Filter>
+    </ClInclude>
+    <ClInclude Include="tui.h">
+      <Filter>Header Files\tlib</Filter>
+    </ClInclude>
+    <ClInclude Include="texception.h">
+      <Filter>Header Files\tlib</Filter>
+    </ClInclude>
+    <ClInclude Include="trange.h">
+      <Filter>Header Files\tlib</Filter>
+    </ClInclude>
+    <ClInclude Include="tcounter.h">
+      <Filter>Header Files\tlib</Filter>
+    </ClInclude>
+    <ClInclude Include="tstring.h">
+      <Filter>Header Files\tlib</Filter>
+    </ClInclude>
+    <ClInclude Include="trandom.h">
+      <Filter>Header Files\tlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tdev">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tlib">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

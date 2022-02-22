@@ -1,0 +1,12 @@
+﻿// TDEV standard header
+
+// Copyright (c) Timuri Alvarez.
+
+#pragma once
+#ifndef _TDEV_
+#define _TDEV_
+
+#include "tdebug.h"
+#include "tdev.h"
+
+#endif // _TDEV_
